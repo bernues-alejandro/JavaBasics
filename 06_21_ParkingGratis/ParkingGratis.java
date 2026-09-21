@@ -15,7 +15,7 @@ public class ParkingGratis {
 		boolean member = false;
 
 		gratis = minutes <= 60 && !weekEnd || member && age >= 65 || member && weekEnd && minutes <= 120;		
-		System.out.println("result = " + ( gratis == ??? ));
+		System.out.println("result = " + ( gratis == false ));
 		
 		minutes = 36;
 		age = 65;
@@ -23,7 +23,7 @@ public class ParkingGratis {
 		member = true;
 		
 		gratis = minutes <= 60 && !weekEnd || member && age >= 65 || member && weekEnd && minutes <= 120;		
-		System.out.println("result = " + ( gratis == ??? ));
+		System.out.println("result = " + ( gratis == true ));
 		
 		minutes = 115;
 		age = 34;
@@ -31,7 +31,7 @@ public class ParkingGratis {
 		member = true;
 		
 		gratis = minutes <= 60 && !weekEnd || member && age >= 65 || member && weekEnd && minutes <= 120;		
-		System.out.println("result = " + ( gratis == ??? ));
+		System.out.println("result = " + ( gratis == false ));
 		
 		minutes = 120;
 		age = 34;
@@ -39,7 +39,7 @@ public class ParkingGratis {
 		member = true;
 		
 		gratis = minutes <= 60 && !weekEnd || member && age >= 65 || member && weekEnd && minutes <= 120;		
-		System.out.println("result = " + ( gratis == ??? ));
+		System.out.println("result = " + ( gratis == true ));
 		
 		minutes = 130;
 		age = 25;
@@ -47,7 +47,7 @@ public class ParkingGratis {
 		member = false;
 		
 		gratis = minutes <= 60 && !weekEnd || member && age >= 65 || member && weekEnd && minutes <= 120;		
-		System.out.println("result = " + ( gratis == ??? ));
+		System.out.println("result = " + ( gratis == false ));
 		
 	}
 
